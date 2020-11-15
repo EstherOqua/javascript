@@ -94,7 +94,19 @@ if (50 <= marks > 40) {
     return('You got a E');
 }
 if (40 <= marks > 30) {
-   return('You got a F');
+    return('You got a F');      
 }
 }
-// Switch statments
+// Switch statments - Homework
+let mark = 90
+
+switch (true) {
+    case (mark > 90):
+        console.log('A+');
+        break;
+    case (mark > 80 && mark <= 90):
+        alert ('A');
+        break;
+    case (mark > 70 && mark <= 80):
+        console.log('B');
+}
