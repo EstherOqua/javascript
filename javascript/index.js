@@ -73,6 +73,8 @@ function getFee(isMemeber) {
     return (isMemeber ? '£2.00' : '£10.00');
 }
 // TASK
+function myGrade(marks) {
+    myGrade(70);
 if (marks > 90){
     return('You got an A+');
 }
@@ -93,5 +95,6 @@ if (50 <= marks > 40) {
 }
 if (40 <= marks > 30) {
    return('You got a F');
+}
 }
 // Switch statments
